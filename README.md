@@ -10,16 +10,19 @@ Telegram‑бот для консультирования студентов и 
 - Удобные команды и кнопки в интерфейсе (В будущем)
 
 Установка
-  1.Склонируйте репозиторий: 
+1.Склонируйте репозиторий: 
     git clone https://github.com/yourname/it-career-bot.git
     cd it-career-bot
-  2.Создайте виртуальное окружение и установите зависимости:
+    
+2.Создайте виртуальное окружение и установите зависимости:
     python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
-  3.Создайте файл .env в корне проекта со следующими переменными:
+    
+3.Создайте файл .env в корне проекта со следующими переменными:
     TELEGRAM_BOT_TOKEN=<Ваш Telegram Bot Token>
     OPENAI_API_KEY=<Ваш OpenAI API Key>
+    
 Запуск:
   python bot.py
 После запуска бот начнет опрос Telegram‑серверов и будет готов к приему команд.

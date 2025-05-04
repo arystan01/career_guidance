@@ -12,7 +12,7 @@ Telegram‑бот для консультирования студентов и 
 Установка
 1.Склонируйте репозиторий: 
     git clone https://github.com/yourname/it-career-bot.git
-    cd it-career-bot
+    cd career_guidance
     
 2.Создайте виртуальное окружение и установите зависимости:
     python3 -m venv venv
